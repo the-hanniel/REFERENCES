@@ -1,0 +1,7 @@
+table{border-color:#eee;}
+th{ background-color:#555; border-color:#eee; color:#eee; }
+#n0 { background-color:#ddd; }
+tr#n0:hover { background-color:#fef; cursor:pointer; }
+tr#n1{ background-color:#eee; }
+tr#n1:hover{ background-color:#fef; cursor:pointer; }
+td{ border-color:#eee; }

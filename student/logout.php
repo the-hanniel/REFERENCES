@@ -1,0 +1,19 @@
+<?php
+ob_start();
+session_start();
+unset($_SESSION['u_id']);
+unset($_SESSION['u_fname']);
+unset($_SESSION['u_lname']);
+unset($_SESSION['u_uname']);
+unset($_SESSION['u_pass']);
+unset($_SESSION['u_utype']);
+unset($_SESSION['stud_year']);
+unset($_SESSION['stud_dept']);
+unset($_SESSION['stud_sem']);
+unset($_SESSION['stud_regno']);
+session_destroy();
+/*Redirect to Index Page*/
+header("Location:index.php?msg=logout");
+exit;
+ob_end_flush();
+?>

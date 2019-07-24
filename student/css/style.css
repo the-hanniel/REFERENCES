@@ -1,0 +1,294 @@
+@charset "utf-8";
+body {
+margin:0;
+padding:0;
+width:100%;
+background:#fafbfb; 
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+h1,h2,h3,h4
+{
+	font-family	:	'Trebuchet MS',Verdana,sans-serif;
+}
+body a 
+{ 
+	color:#d34600;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+body a:hover
+{
+	text-decoration:underline;
+}
+#headerText
+{
+	float:left;
+}	
+.welcome
+{
+	color:#165C9C;
+}
+.tinyforms 
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+	font-weight: bold;
+    border: 1px solid #A7A8AA;
+    width: 90px;
+}
+.typeproforms 
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: bold;
+    border: 1px solid #A7A8AA;
+    width: 150px;
+}
+.button 
+{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    background-color: #eee;
+    font-size: 11px;
+    color: #222;
+}
+.button:hover
+{
+	-webkit-box-shadow:0px 0px 5px #000;
+}
+/* style used for Error messages */
+.error 
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    color: red;
+}
+/* style used for mandatory * */
+.mandatory
+{
+	font-size: 10pt;
+	font-weight: bold;
+    color: red;
+}
+
+.success 
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    color: green;
+}	
+#center
+{
+	text-align:center;
+}
+#listEntries
+{
+	font-family				:	"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse			:	collapse;
+	-webkit-transition		:	-webkit-box-shadow 1s linear;
+	-moz-transition			:	-webkit-box-shadow 1s linear;
+}
+#listEntries td, #listEntries th 
+{
+	font-size:1.1em;
+	font-weight:bold;
+	border:1px solid #666;
+	padding:5px;
+}
+#listEntries th 
+{
+	font-size:1.2em;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#165C9C;
+	color:#FFF;
+}
+#listEntries tr.alt td 
+{
+	color:#000000;
+	background-color:#A9D0F5;
+}
+#listEntries a
+{
+	color:#165C9C;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+#listEntries a:hover
+{
+	text-decoration:underline;
+}
+#listEntries .activelink
+{
+	color:#d34600;
+	font-family	:	"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-decoration:underline;
+}
+.dashed_border
+{
+	border-bottom		:  2px dashed #b1b1b1;
+}
+#wrapper
+{
+	width	:	100%;
+	margin	:	0 auto;
+}
+#myDiv
+{
+	margin				:	0 auto;
+	top					:	60px;
+	position			:	relative;
+	width				:	400px;
+	height				:	400px;
+	background-color 	:	#2B4F71;
+	padding				:	30px;
+	line-height			:	200%;
+}
+#myDiv
+{
+	-webkit-border-top-left-radius			:	50px;
+	-webkit-border-bottom-right-radius		:	50px;
+	-moz-border-radius-topleft				:	50px;
+	-moz-border-radius-bottomright			:	50px;
+	
+	-webkit-box-shadow						:	10px 10px 30px  rgba(0,0,75,0.5);
+	-moz-box-shadow							:	10px 10px 30px  rgba(0,0,75,0.5);
+	-webkit-transition						:	all	1s linear;
+	-moz-transition							:	all	1s linear;
+}
+#myDiv:hover
+{
+	background								:	#2C99C8;
+	-webkit-box-shadow						:	0px 0px 30px rgba(0,0,75,0.5);
+	-moz-box-shadow							:	0px 0px 30px rgba(0,0,75,0.5);
+}
+
+
+
+
+/*Chart Style*/
+.chartContainer
+{
+	width:400px;
+	margin:40px auto;
+	padding:70px;
+	position:relative;
+	-webkit-box-shadow		:	10px 10px 30px  rgba(0,0,75,0.5);
+	-moz-box-shadow			:	10px 10px 30px  rgba(0,0,75,0.5);
+	-moz-border-radius		:   20px;
+	-webkit-border-radius	:   20px;
+	-webkit-transition		:	all	1s linear;
+	-moz-transition			:	all	1s linear;
+	
+}
+.printChartContainer
+{
+	width:400px;
+	margin:0px auto;
+	padding:20px;
+	position:relative;	
+}
+.chartContainer:hover
+{
+	background				:	#EDF1F4;
+	-webkit-box-shadow		:	0px 0px 30px rgba(0,0,75,0.5);
+	-moz-box-shadow			:	0px 0px 30px rgba(0,0,75,0.5);
+}
+/*Chart Table CSS Starts Here*/
+.chartContainer table#listEntries
+{
+	font-family				:	"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width					:	200px;
+	border-collapse			:	collapse;
+	color					:	#165C9C;
+}
+.chartContainer table#listEntries td
+{
+	font-size:1.1em;
+	font-weight:bold;
+	border:1px solid #666;
+	padding:3px;
+}
+/*Chart Table CSS Ends Here*/
+
+/*Feedback Status css*/
+#myDiv1
+{
+	margin				:	30px auto;
+	width				:	280px;
+	height				:	280px;
+	background-color 	:	#2B4F71;
+	padding				:	30px;
+	line-height			:	200%;
+}
+#myDiv1
+{
+	-webkit-border-top-left-radius			:	50px;
+	-webkit-border-bottom-right-radius		:	50px;
+	-moz-border-radius-topleft				:	50px;
+	-moz-border-radius-bottomright			:	50px;
+	
+	-webkit-box-shadow						:	5px 10px 30px  rgba(0,0,75,0.5);
+	-moz-box-shadow							:	5px 10px 30px  rgba(0,0,75,0.5);
+	-webkit-transition						:	all	1s linear;
+	-moz-transition							:	all	1s linear;
+}
+#myDiv1:hover
+{
+	background								:	#2C99C8;
+	-webkit-box-shadow						:	0px 0px 30px rgba(0,0,75,0.5);
+	-moz-box-shadow							:	0px 0px 30px rgba(0,0,75,0.5);
+}
+/*Feedback Status css*/
+
+
+/*Comment CSS*/
+#comment
+{ 
+	margin					:  20px auto;
+	width					:  50%;
+	padding					:  20px;
+	background-color		:  #fafbfb;
+	
+}
+#comment:hover
+{
+	background								:	#2C99C8;
+	-webkit-box-shadow						:	0px 0px 30px rgba(0,0,75,0.5);
+	-moz-box-shadow							:	0px 0px 30px rgba(0,0,75,0.5);
+}
+.shadowEffect
+{
+	-moz-box-sizing			: 	border-box;
+	-webkit-box-sizing		: 	border-box;
+	box-sizing				: 	border-box;
+	padding					: 	10px;
+	
+	-moz-border-radius		:	8px;
+	-webkit-border-radius	:	8px;
+	border-radius			:	8px;	
+	
+	-webkit-box-shadow		:	0px 0px 30px rgba(0,0,75,0.5);
+	-moz-box-shadow			:	0px 0px 30px rgba(0,0,75,0.5);
+}
+/*Comment CSS*/
+
+
+
+
+
+
+
+
+
